@@ -1,0 +1,19 @@
+﻿<Window x:Class="de.fearvel.gui.SqlitePaswordSetter.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SqlitePaswordSetter"
+        mc:Ignorable="d"
+        Title="SQLite Pasword Setter" Height="151" Width="444">
+    <Grid>
+        <Label Content="File:" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="135,14,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="200" Name="TextBoxPath" IsReadOnly="True"/>
+        <Button Content="Find" HorizontalAlignment="Left" Margin="340,15,0,0" VerticalAlignment="Top" Width="75" Name="ButtonPathFinder" Click="ButtonPathFinder_OnClick" Height="22"/>
+        <Label Content="Old Password:" HorizontalAlignment="Left" Margin="10,41,0,0" VerticalAlignment="Top"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="135,45,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="200" Name="TextBoxOldPassword"/>
+        <Label Content="New Password:" HorizontalAlignment="Left" Margin="10,72,0,0" VerticalAlignment="Top"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="135,76,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="200" Name="TextBoxNewPassword"/>
+        <Button Content="Set" HorizontalAlignment="Left" Margin="340,77,0,0" VerticalAlignment="Top" Width="75" Name="ButtonSet" Click="ButtonSet_OnClick" Height="22"/>
+    </Grid>
+</Window>
