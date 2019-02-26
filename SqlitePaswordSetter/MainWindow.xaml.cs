@@ -7,6 +7,7 @@ namespace de.fearvel.gui.SqlitePasswordSetter
 {
     /// <summary>
     /// MainWindow of the Password setter
+    /// <copyright>Andreas Schreiner 2019</copyright>
     /// </summary>
     public partial class MainWindow : Window
     {
