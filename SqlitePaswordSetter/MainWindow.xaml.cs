@@ -3,16 +3,26 @@ using System.Windows;
 using MessageBox = System.Windows.MessageBox;
 using OpenFileDialog = System.Windows.Forms.OpenFileDialog;
 using de.fearvel.net.SQL.Connector;
-namespace de.fearvel.gui.SqlitePaswordSetter
+namespace de.fearvel.gui.SqlitePasswordSetter
 {
-
+    /// <summary>
+    /// MainWindow of the Password setter
+    /// </summary>
     public partial class MainWindow : Window
     {
+        /// <summary>
+        /// MainWindow Constructor
+        /// </summary>
         public MainWindow()
         {
             InitializeComponent();
         }
 
+        /// <summary>
+        /// Allows the user to select a file
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void ButtonPathFinder_OnClick(object sender, RoutedEventArgs e)
         {
             var dia = new OpenFileDialog();
@@ -22,6 +32,12 @@ namespace de.fearvel.gui.SqlitePaswordSetter
             }
         }
 
+        /// <summary>
+        /// On Click method
+        /// Sets Password of an Sqlite file 
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void ButtonSet_OnClick(object sender, RoutedEventArgs e)
         {
             if (TextBoxPath.Text.Length == 0)

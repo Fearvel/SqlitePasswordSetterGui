@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace de.fearvel.gui.SqlitePaswordSetter.Properties {
+namespace de.fearvel.gui.SqlitePasswordSetter.Properties {
     using System;
     
     
@@ -39,7 +39,7 @@ namespace de.fearvel.gui.SqlitePaswordSetter.Properties {
         internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("de.fearvel.gui.SqlitePaswordSetter.Properties.Resources", typeof(Resources).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("de.fearvel.gui.SqlitePasswordSetter.Properties.Resources", typeof(Resources).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
